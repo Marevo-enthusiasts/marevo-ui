@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@shared': './src/shared',
-      '@components': './src/components',
+      '@widgets': './src/widgets',
       '@pages': './src/pages'
     }
   }
