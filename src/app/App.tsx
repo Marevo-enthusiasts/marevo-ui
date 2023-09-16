@@ -1,7 +1,14 @@
-import './App.css';
+// import { Header } from '@widgets/header';
+import MainLayout from './layouts/MainLayout';
+import { Provider } from './providers';
 
 function App() {
-  return <p>Greeting</p>;
+  return (
+    <Provider>
+      <MainLayout>
+      </MainLayout>
+    </Provider>
+  );
 }
 
 export default App;
