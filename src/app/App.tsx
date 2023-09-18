@@ -1,5 +1,4 @@
-// import { Header } from '@widgets/header';
-import { Hero } from '../widgets/hero';
+import { Hero } from '@widgets';
 import MainLayout from './layouts/MainLayout';
 import { Provider } from './providers';
 
