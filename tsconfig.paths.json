@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
-      "@widgets/*": ["/widgets/*"],
-      "@shared/*": ["/shared/*"]
+      "~/*": ["src/*"]
     }
   }
 }
