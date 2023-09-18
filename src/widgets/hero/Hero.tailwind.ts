@@ -22,12 +22,12 @@ export const imageStyle = ctl(`
 
 export const rightImageStyle = ctl(`
   ${imageStyle}
-  right-0
+  left-0
   object-custom
 `);
 
 export const leftImageStyle = ctl(`
   ${imageStyle}
-  left-0
-  object-bottom
+  right-0
+  object-custom
 `);

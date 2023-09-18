@@ -5,12 +5,12 @@ const Hero = () => {
     <div className={containerStyle}>
       <div className={`${imageContainerStyle}`}>
         <img 
-          src="./assets/banner-6.jpg"
+          src="./assets/baner-1.jpg"
           alt="hero-left" 
           className={leftImageStyle}
         />
         <img 
-          src="./assets/banner-9.jpg"
+          src="./assets/baner-2.jpg"
           alt="hero-right"
           className={rightImageStyle}
         />
