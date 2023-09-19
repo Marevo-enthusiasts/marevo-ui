@@ -3,7 +3,7 @@ import { Logotype, Cart, BurgerMenu } from './components';
 
 const Header = () => {
   return (
-    <div className={`${containerStyle}`}>
+    <div className={`${containerStyle} opacity-[0.7]`}>
       <BurgerMenu />
       <Logotype />
       <Cart />
