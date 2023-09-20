@@ -1,4 +1,4 @@
-export interface IListItem {
+export interface INavItem {
   name: string;
   path: string;
 }

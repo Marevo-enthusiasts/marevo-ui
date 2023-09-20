@@ -1,13 +1,16 @@
 import { FC, PropsWithChildren } from 'react';
-import { Header } from '../../widgets';
+import { Header, Sidebar } from '~/widgets';
 
 const MainLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div>
-      <Header />
-
-      {children}
-    </div>
+    <>
+      <div>
+        <Header />
+        {children}
+      </div>
+      
+      <Sidebar />
+    </>
   );
 };
 
