@@ -6,9 +6,15 @@ export const containerStyle = ctl(`
   fixed
   inset-0
   z-[100]
+
+  after:absolute
+  after:bg-white
+  after:w-full
+  after:h-[1.4px]
+  after:opacity-[.5]  
 `);
 
-export const containerElements = ctl(`
+export const containerElementsStyle = ctl(`
   px-4
   py-2
   flex 
