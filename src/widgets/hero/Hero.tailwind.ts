@@ -16,18 +16,19 @@ export const imageStyle = ctl(`
   absolute 
   top-0 
   object-cover 
-  w-[50%] 
   h-full
-`);
-
-export const rightImageStyle = ctl(`
-  ${imageStyle}
-  left-0
-  object-custom
 `);
 
 export const leftImageStyle = ctl(`
   ${imageStyle}
+  left-0
+  object-top
+  w-[60%]
+`);
+
+export const rightImageStyle = ctl(`
+  ${imageStyle}
   right-0
-  object-custom
+  object-top
+  w-[40%]
 `);
