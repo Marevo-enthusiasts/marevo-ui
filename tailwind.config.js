@@ -8,14 +8,14 @@ export default {
     extend: {
       colors: {
         "temp123": "#A8A693",
-        "gray-line": "#B8B6A5"
+        "dark-liver": "#505050"
       },
       objectPosition: {
-        custom: '50% 20%',
+        custom: '40% 0',
       }
     },
     fontFamily: {
-      roboto: ['Roboto Condensed'],
+      roboto: ['Roboto Condensed', 'Roboto Condensed Light', 'Roboto Condensed Bold'],
     },
   },
   plugins: [],

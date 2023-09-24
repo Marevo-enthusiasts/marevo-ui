@@ -2,7 +2,7 @@ import ctl from '@netlify/classnames-template-literals';
 
 export const containerStyle = ctl(`
   h-[60px] 
-  opacity-90 
+  opacity-70
   py-4 
   px-6 
   flex 

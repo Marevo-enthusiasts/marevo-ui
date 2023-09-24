@@ -1,9 +1,13 @@
 import { AiOutlineMenu } from "react-icons/ai";
+import { useSidebarStore } from "~/widgets/sidebar";
+import { containerStyle } from "./BurgerMenu.tailwind";
 
 const BurgerMenu = () => {
+  const { open } = useSidebarStore(store => store);
+
   return (
-    <div className="text-2xl text-white cursor-pointer">
-      <AiOutlineMenu />
+    <div className={containerStyle} onClick={() => open()}>
+      <AiOutlineMenu className="text-white" />
     </div>
   );
 };

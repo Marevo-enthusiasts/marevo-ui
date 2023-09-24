@@ -1,9 +1,9 @@
-import { containerStyle } from './Header.tailwind';
 import { Logotype, Cart, BurgerMenu } from './components';
+import { containerStyle } from './Header.tailwind';
 
 const Header = () => {
   return (
-    <div className={`${containerStyle}`}>
+    <div className={containerStyle}>
       <BurgerMenu />
       <Logotype />
       <Cart />
